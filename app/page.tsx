@@ -20,7 +20,7 @@ export default function Home() {
       <section className="mb-16">
         <h2 className="text-2xl mb-4 font-bold">experience</h2>
         <ul className="space-y-2 list-none p-0">
-          <li>• research apprentice @ my college [jun 24' - aug 24']</li>
+          <li>• research apprentice @ my college [dec 24' - jan 25']</li>
         </ul>
       </section>
 
