@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { JetBrains_Mono } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
-const jetbrainsMono = JetBrains_Mono({
+const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
 })
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${jetbrainsMono.className} bg-[#fffdf0]`}>
+      <body className={`${inter.className} bg-[#fffdf0]`}>
         <div className="fixed bottom-0 left-0 right-0 bg-[#fffdf0] p-4">
           <div className="mx-auto max-w-3xl flex justify-center space-x-4">
             <a
@@ -44,4 +44,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-} 
+}
