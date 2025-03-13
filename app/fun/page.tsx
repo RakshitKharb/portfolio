@@ -32,19 +32,9 @@ export default function FunProjects() {
             </p>
           </section>
 
-          <section>
-            <h3 className="text-xl mb-2 underline font-bold">notesrama</h3>
-            <p className="text-base text-gray-600">
-              smart and minimalistic notes making app [won 2nd in a hackathon]
-            </p>
-          </section>
+          
 
-          <section>
-            <h3 className="text-xl mb-2 underline font-bold">mindfulme</h3>
-            <p className="text-base text-gray-600">
-              self help and mental health website [won 3rd in a hackathon]
-            </p>
-          </section>
+          
 
         </div>
       </header>
