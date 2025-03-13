@@ -49,7 +49,7 @@ export default function RootLayout({
               GitHub
             </a>
             <a
-              href="https://twitter.com/RakshitKharb"
+              href="https://twitter.com/KharbRakshit"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 text-lg"
