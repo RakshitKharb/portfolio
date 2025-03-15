@@ -58,10 +58,13 @@ export default function Home() {
         <h2 className="text-2xl mb-4 font-bold">blogs</h2>
         <ul className="space-y-2 list-none p-0">
           <li>
-            • <a href="https://medium.com/@rakshitkharb2323/how-i-successfully-passed-the-dp-100-exam-tips-and-insights-30ed6b9fefe9" target="_blank" rel="noopener noreferrer" className="underline">Guide to DP-100 Exam</a>
+            • <a href="https://medium.com/@rakshitkharb2323/all-about-key-value-pair-and-compression-cbf0a3b36e2b" target="_blank" rel="noopener noreferrer" className="underline">Key-Value Pair and Compression</a>
           </li>
           <li>
             • <a href="https://medium.com/@rakshitkharb2323/gpt-4o-ed7f6e35c166" target="_blank" rel="noopener noreferrer" className="underline">All about GPT-4o</a>
+          </li>
+          <li>
+            • <a href="https://medium.com/@rakshitkharb2323/how-i-successfully-passed-the-dp-100-exam-tips-and-insights-30ed6b9fefe9" target="_blank" rel="noopener noreferrer" className="underline">Guide to DP-100 Exam</a>
           </li>
         </ul>
       </section>
