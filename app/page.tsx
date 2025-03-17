@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="min-h-screen max-w-3xl mx-auto px-4 py-16 text-left font-normal">
+    <div className="min-h-screen max-w-3xl mx-auto px-4 py-16 text-left font-normal relative">
       {/* Header */}
       <header className="mb-16">
         <h1 className="text-4xl mb-4 font-bold">
@@ -68,6 +68,18 @@ export default function Home() {
           </li>
         </ul>
       </section>
+
+      {/* Bottom Navigation */}
+      <div className="fixed bottom-4 right-4 flex gap-4">
+        <a 
+          href="https://drive.google.com/file/d/1DLuoKdzXzi_LWRKWbWZaozi6hV85TCBA/view?usp=sharing"
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-lg underline hover:opacity-80 transition-opacity"
+        >
+          Resume
+        </a>
+      </div>
     </div>
   )
 } 
