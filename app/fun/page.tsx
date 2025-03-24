@@ -23,6 +23,17 @@ export default function FunProjects() {
 
           <section>
             <h3 className="text-xl mb-2 underline font-bold">
+              <a href="https://codepen.io/Rakshit-Kharb/full/WbNypvq" target="_blank" rel="noopener noreferrer" className="hover:no-underline">
+                Highway-Car Game
+              </a>
+            </h3>
+            <p className="text-base text-gray-600">
+              Built under 30 minutes, this is a simple car game where you dodge incoming cars to survive.
+            </p>
+          </section>
+
+          <section>
+            <h3 className="text-xl mb-2 underline font-bold">
               <a href="https://drive.google.com/file/d/1HfN51CnjkH40QzfYwz2-mbAr6OkxzE_5/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="hover:no-underline">
                 Apply-Help
               </a>
